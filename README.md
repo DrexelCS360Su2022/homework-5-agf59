@@ -17,8 +17,8 @@ Problem 1: 107m
 1.4 was also still harder, and I had to get a bit creative on my algorithm for it. Still nothing that made me pull my hair out
 1.5 was pretty easy, but I ran into issues where I wasn't getting the correct answer from the examples on the homework pdf. Clarification received from TA 
 
-Problem 2: 38m
+Problem 2: 68m
 pow, g, and h were all very easy to implement as their pseudocode was basically described in perfectly clear terms from the outset.
-d was a bit more tricky, if only because I was struggling to understand the logic behind it.
+d was a bit more tricky, if only because I was struggling to understand the logic behind it. I wound up having to look up examples of partial application but after I saw one it immediately clicked
 
 Problem 3:  

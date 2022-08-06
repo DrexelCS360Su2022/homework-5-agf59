@@ -62,7 +62,8 @@ h 0 = 0
 h n = n - ((pow h 3) (n-1))
 
 d :: Int -> Integer -> Integer
-d = error "d not yet defined"
+d _ 0 = 0
+d i n = n - ((pow (d i) i) (n-1))
 
 --
 -- Problem 3
