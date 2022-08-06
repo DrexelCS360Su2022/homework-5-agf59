@@ -21,4 +21,5 @@ Problem 2: 68m
 pow, g, and h were all very easy to implement as their pseudocode was basically described in perfectly clear terms from the outset.
 d was a bit more tricky, if only because I was struggling to understand the logic behind it. I wound up having to look up examples of partial application but after I saw one it immediately clicked
 
-Problem 3:  
+Problem 3: 138m
+I only understood the base case of this assignment and the type constraints, but I was unable to apply the inductive case

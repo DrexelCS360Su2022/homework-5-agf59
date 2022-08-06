@@ -69,4 +69,17 @@ d i n = n - ((pow (d i) i) (n-1))
 -- Problem 3
 --
 
-powerSet = error "powerSet not yet defined"
+-- If we're given an empty set, just put it in a set. 
+-- If we're not, then we have to do the algorithm described in lecture notes
+-- Separate the first element from the set. We'll call this x.
+-- Find every subset of T and insert x into it. 
+powerSet :: Ord a => Set a -> Set(Set a)
+powerSet set = if isEmpty set 
+               then singleton set
+               else singleton set --bad implementation so it compiles and can run the other tests
+
+--Comment to explain my understanding of the concept, but lack of understanding in application
+--I know I am meant to extract the first element of the input set, then apply it to the powerset of the remaining items.
+--I know I must then take that application and make a union with an un-touched copy powerset of the remaining items
+--However, I do not understand how to apply this into code as the exact syntax of set has been mystifying me. 
+  
